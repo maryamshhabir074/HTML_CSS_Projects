@@ -1,0 +1,284 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: robot, sans-serif;
+  }
+
+  /* NAVBAR-NAV */
+.nav-content {
+  background-image: url(../../assests/slider-left-dec.png);
+  background-size: contain; /* ya cover, jaise aapko better lage */
+  background-repeat: no-repeat;
+  background-position: top left ; /* move image to right side */
+  width: 100%;
+  height: auto;
+  padding-bottom: 100px;
+}
+.custom-navbar .container {
+  height: 100%;
+}
+  .nav-link {
+   
+      padding-top: 20px; /* ya jitna aapko niche lana hai */
+    color: black;
+  }
+  .nav-link:hover{
+    color:blue;
+  }
+  .btn{
+    border-radius: 20px;
+  }
+
+  /* SERVICES */
+  
+ .section-heading{
+ background-image: url(../../assests/services-right-dec.png);
+ background-repeat: no-repeat;
+ background-position: center center;
+ background-size: contain;
+ margin: 0 auto;
+ width: 100%;
+ z-index: 0;
+ padding: 60px 0;
+ }
+ .card{
+  padding: 10px;
+  align-items: left;
+ 
+  border-top-right-radius: 20%;
+ }
+ .card-body{
+  text-align: left;
+ }
+ .icon-app{
+  background-image: url('../../assests/service-icon-01.png');
+  background-size: 40px 40px;
+  background-repeat: no-repeat;
+  background-position: left center;
+  height: 50px; 
+}
+.icon-rocket{
+  background-image: url('../../assests/service-icon-02.png');
+  background-size: 40px 40px;
+  background-repeat: no-repeat;
+  background-position: left center;
+  height: 50px;
+}
+.icon-multi{
+  background-image: url('../../assests/service-icon-03.png');
+  background-size: 40px 40px;
+  background-repeat: no-repeat;
+  background-position: left center;
+  height: 50px; 
+}
+.icon-help{
+ 
+  background-image: url('../../assests/service-icon-04.png');
+  background-size: 40px 40px;
+  background-repeat: no-repeat;
+  background-position: left center;
+  height: 50px;
+}
+.card:hover .card-body ,
+.card:hover .icon{
+  color: white;
+}
+.card:hover ,
+.card:hover .card-body a{
+  background-color: rgb(82, 171, 239);
+}
+
+  /* about */
+  #about{
+  background-image: url(../../assests/services-left-dec.png);
+     background-repeat: no-repeat;
+    padding-top: 130px;
+    position: relative;
+  }
+   
+  .about-heading {
+    margin-bottom: 30px;
+  }
+ .box-item h4 a{
+  color: black;
+  font-size: large;
+ }
+ .box-item h4 a:hover{
+  color: blue;
+ }
+  div{
+    border-radius: 50px;
+    text-align: center;
+    margin-bottom:20px;
+    
+  }
+  div a{
+    text-decoration: none;
+  }
+  .right-image img{
+    width: 100%;
+   overflow: hidden;                          /* Hides extra content that overflows the container */
+   vertical-align: middle;           /* vertically center an element relative to its surrounding content*/
+  }
+
+
+  /* CLIENT SAY */
+  #client{
+    padding-top: 100px;
+    position: relative;
+
+  }
+  .grid div h5:hover{
+    color: blue;
+  }
+.grid div .col:hover{
+  color: blue;
+}
+.col-lg-4:hover i,
+.col-lg-4:hover span {
+  color: blue;
+}
+/* client say left side */
+.client-content{
+  padding: 60px 30px;
+  background-image: url(../../assests/client-bg.png);
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  border-radius: 10%;
+}
+.client-image{
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.down-content{
+  display: flex;
+  flex-direction: row;
+}
+.down-content .right-content{ 
+  margin-top: 50px;
+}
+
+
+/* PRICINGG */
+
+ /* 1st card */
+.pri-item {
+  background-image: url(../../assests/regular-table-top.png), url(../../assests/regular-table-bottom.png);
+  background-position: top center, bottom center;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 100% auto, 100% auto;
+  border-radius: 40px; 
+  overflow: hidden; 
+}
+
+.pricing-item-body span{
+  color: white;
+  font-size: 50px;
+  display: flex;
+  text-align: left;
+  margin: 10px 10px;
+}
+
+ ul{
+  list-style: none;
+ }
+
+.non-function{
+  text-decoration: line-through;
+  color: black;
+  color: rgb(208, 208, 208);
+ }
+.bttn{
+  border-radius: 50px;
+  background-color: white;
+  text-align: center;
+  color: rgb(73, 152, 231);
+  border: 1px solid rgb(73, 152, 231);
+  height: 50px;
+}
+.bttn:hover{
+  background-color: rgb(73, 152, 231);
+  color: white;
+}
+
+/* 2ND card */
+.pric-item {
+  background-image: url(../../assests/pro-table-top\ \(1\).png), url(../../assests/pro-table-bottom.png);
+  background-position: top center, bottom center;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 100% auto, 100% auto; 
+  border-radius: 40px; 
+  overflow: hidden; 
+}
+
+.pricing-item-body span{
+  color: white;
+  font-size: 50px;
+  display: flex;
+  text-align: left;
+  margin: 10px 10px;
+}
+
+ ul{
+  list-style: none;
+ }
+
+.non-function{
+  text-decoration: line-through;
+  color: black;
+  color: rgb(208, 208, 208);
+ }
+.bttn{
+  border-radius: 50px;
+  background-color: white;
+  text-align: center;
+  color: rgb(73, 152, 231);
+  border: 1px solid rgb(73, 152, 231);
+  height: 50px;
+}
+.bttn:hover{
+  background-color: rgb(73, 152, 231);
+  color: white;
+}
+ /* NEWSLETTER */
+ #newsletter{
+  background-image: url(../../assests/footer-bg.png);
+  background-size: cover;
+  background-position: no-repeat;
+  margin-top:130px;
+  padding-top:300px ;
+  padding-bottom:60px ;
+ }
+ /* footer-btn */
+.btn{
+  background: linear-gradient(to right, rgb(86, 86, 216), rgb(59, 177, 216));
+}
+/* IMPUT */
+input{
+  font-size: 15px;
+  color: white;
+  outline: none;
+  border: none;
+  height: 46px;
+  background-color: transparent;
+  border-bottom: 1px solid white;
+  width: 50%;
+}
+
+/* footer-bottom */
+.footer-bottom{
+  color: white;
+}
+.footer-bottom p a{
+  color: white;
+}
+ 
+.footer-bottom li a{
+  color: white;
+}
+/* LOGO */
+.footer-logo{
+  color: aliceblue;
+}
