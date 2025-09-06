@@ -1,0 +1,435 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background: #fff;
+}
+
+/* Navbar */
+header {
+  background: #111;
+  color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 5%;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #00c3ff;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: #00c3ff;
+}
+
+/* Hero Section */
+.box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5% 10%;
+  flex-wrap: wrap;
+  background: rgb(243, 241, 241);
+ 
+}
+
+.box .content {
+  flex: 1 1 400px;
+}
+
+.box h1 {
+  font-size: 3rem;
+  color: #111;
+}
+
+.box p {
+  margin: 1rem 0;
+  max-width: 500px;
+}
+
+.box .btn {
+  background: #00c3ff;
+  color: #fff;
+  padding: 10px 25px;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.box .btn:hover {
+  background: #007ea8;
+}
+
+.image-box {
+  flex: 1 1 400px;
+  text-align: center;
+}
+
+.hero-img {
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Services */
+.services {
+  text-align: center;
+  padding: 60px 10%;
+}
+
+.services h2 span {
+  color: #00c3ff;
+}
+
+.service-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-top: 20px;
+}
+
+.service-box {
+  flex: 1 1 300px;
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.service-box:hover {
+  transform: translateY(-8px);
+}
+
+.service-box img {
+  width: 80px;
+  margin-bottom: 15px;
+}
+
+.service-box h3 {
+  margin-bottom: 10px;
+}
+
+.view-all {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  background: #00c3ff;
+  color: #fff;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/* About Us */
+/* Overall About Us section */
+.Aboutus {
+  padding: 60px 10%;
+  background: rgb(243, 241, 241);
+}
+
+/* Heading & text center */
+.choose-heading {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.choose-heading h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #222;
+}
+
+.choose-heading h2 span {
+  color: #0077b6; /* highlight color */
+}
+
+.choose-heading p {
+  max-width: 700px;
+  margin: 15px auto 0;
+  color: #555;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Container for image + text */
+.why-container .box {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap; /* responsive */
+}
+
+/* Image box */
+.img-box {
+  flex: 1;
+  min-width: 300px;
+}
+
+.img-box img {
+  width: 100%;
+}
+
+/* Text box */
+.detail-box {
+  flex: 1.2;
+  min-width: 300px;
+}
+
+.detail-box h4 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.detail-box p {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.read-more {
+  padding: 10px 20px;
+  background: #0077b6;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.read-more:hover {
+  background: #023e8a;
+}
+
+/* Why Choose Us */
+.why-choose-us {
+  padding: 60px 10%;
+  text-align: center;
+}
+
+.why-choose-us span {
+  color: #00c3ff;
+}
+
+.choose-img img {
+  max-width: 100px;
+  margin: 15px auto;
+}
+
+/* Team Section */
+.Team {
+  padding: 60px 10%;
+  text-align: center;
+  background: rgb(243, 241, 241);
+}
+
+.Team .card {
+  display: inline-block;
+  background: #f9f9f9;
+  margin: 15px;
+  padding: 20px;
+  border-radius: 15px;
+  width: 250px;
+  vertical-align: top;
+  transition: 0.3s;
+}
+
+.Team .card:hover {
+  transform: translateY(-8px);
+}
+
+.profile-img img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.icons i {
+  margin: 10px;
+  color: #00c3ff;
+  cursor: pointer;
+}
+
+/* Customers */
+.Customer {
+  padding: 60px 10%;
+  text-align: center;
+}
+
+.Customer-box {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.Customer-detail {
+  flex: 1 1 300px;
+  background: #f9f9f9;
+  padding: 25px;
+  border-radius: 15px;
+}
+
+.Customer-detail img {
+  width: 80px;
+  border-radius: 50%;
+}
+
+.slider-controls button {
+  margin: 10px;
+  padding: 10px 15px;
+  background: #00c3ff;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+/* Footer */
+.footer {
+  background: #111;
+  color: #fff;
+  padding: 40px 10%;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.footer-section {
+  flex: 1 1 200px;
+}
+
+.footer-section h3 {
+  margin-bottom: 15px;
+}
+
+.footer-section ul {
+  list-style: none;
+}
+
+.footer-section ul li a {
+  color: #ddd;
+  text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+  color: #00c3ff;
+}
+
+.footer .social-icons a {
+  margin: 0 10px;
+  color: #fff;
+}
+
+.footer .social-icons a:hover {
+  color: #00c3ff;
+}
+
+.subscribe input {
+  padding: 10px;
+  width: 80%;
+  border: none;
+  border-radius: 25px;
+  margin-bottom: 10px;
+}
+
+.subscribe button {
+  padding: 10px 20px;
+  border: none;
+  background: #00c3ff;
+  color: #fff;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.description {
+  text-align: center;
+  background: #000;
+  color: #fff;
+  padding: 10px;
+}
+
+/* ✅ Responsive Media Queries */
+@media (max-width: 992px) {
+  .box {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nav-links {
+    gap: 10px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .Team .card {
+    width: 80%;
+  }
+}
+
+@media (max-width: 576px) {
+  .box h1 {
+    font-size: 2rem;
+  }
+
+  .service-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Aboutus .box {
+    flex-direction: column;
+  }
+
+  .Customer-box {
+    flex-direction: column;
+  }
+}
